@@ -91,31 +91,6 @@ img[src$="svg"] {
 }
 
 /************ add your CSS here *****************/
-body {
-  font-family: "Roboto Condensed", sans-serif;
-  font-family: "Ubuntu", sans-serif;
-  /* color: var(--color-font); */
-}
-
-h1,
-h2,
-h3,
-h4 {
-  font-family: "Roboto Condensed", sans-serif;
-  font-family: "Ubuntu", sans-serif;
-  color: var(--color-primary);
-  margin-bottom: 0.5em;
-  margin-top: 1.5em;
-}
-
-a {
-  color: var(--color-secondary);
-}
-
-a[href]:hover {
-  color: var(--color-accent-light);
-}
-
 .button {
   display: flex;
   flex-direction: column;
@@ -167,6 +142,31 @@ a[href]:hover {
 .button:hover::before {
   transform: scaleY(1);
   transform-origin: bottom center;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  /* color: var(--color-font); */
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  color: var(--color-primary);
+  margin-bottom: 0.5em;
+  margin-top: 1.5em;
+}
+
+a {
+  color: var(--color-secondary);
+}
+
+a[href]:hover {
+  color: var(--color-accent-light);
 }
 
 main {
