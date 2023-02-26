@@ -147,7 +147,7 @@ a[href]:hover {
   transition: color 0.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-.button > a:hover span {
+.button:hover span {
   position: relative;
   z-index: 1;
   color: #ffffff;
@@ -164,7 +164,7 @@ a[href]:hover {
   transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-.button > a:hover::before {
+.button:hover::before {
   transform: scaleY(1);
   transform-origin: bottom center;
 }
