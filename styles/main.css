@@ -200,5 +200,9 @@ footer {
   padding: 0 1rem;
   background-color: var(--color-secondary);
   display: block;
-  margin-bottom: 20rem;
+}
+footer p {
+  color: var(--color-primary);
+  margin: 0;
+  padding: 3rem 1rem 6rem;
 }
