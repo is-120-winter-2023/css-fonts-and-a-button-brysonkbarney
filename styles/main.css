@@ -102,7 +102,7 @@ img[src$="svg"] {
   color: #000000;
 }
 
-.button > a {
+.button {
   position: relative;
   padding: 15px 30px;
   margin: 0 1rem 1rem;
@@ -111,7 +111,7 @@ img[src$="svg"] {
     background-color 1s cubic-bezier(0.25, 1, 0.25, 1);
 }
 
-.button > a span {
+.button span {
   font-size: 14px;
   font-weight: bold;
   color: #000000;
@@ -129,7 +129,7 @@ img[src$="svg"] {
 }
 
 /* converted an empty <div class="hover"> to a psuedo-element. Original used scale3D(1,0,1) to force the animation on the graphics card */
-.button > a::before {
+.button::before {
   content: "";
   position: absolute;
   inset: 0;
